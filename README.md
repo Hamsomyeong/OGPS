@@ -1,54 +1,94 @@
-# EnjoyTrip_Java\_대전\_07\_권민정\_함소명
+<div align="center">
+    <img src="img/OGPS.png">
+    <h2>ours group plan's</h2>
+    <p>함께 여행하기 위한 그룹 커뮤니티 플랫폼</p>
+    <hr>
+</div>
 
-tomcat 9.0.79, java 8, HttpServlet, jsp, jdbc
-<br/>
+# 🙋🏻‍♂️ 팀원 소개
 
-## 화면
+|  이름  |                    Github                     |
+| :----: | :-------------------------------------------: |
+| 정호빈 |  [jeonghobin](https://github.com/jeonghobin)  |
+| 함소명 | [Hamsomyeong](https://github.com/Hamsomyeong) |
 
-- 메인화면
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fcjbm0q%2Fbtr7d7YB9Za%2Fehby4lcpPEks1cRJTufxjK%2Fimg.png" width="1000">
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbU9oHo%2Fbtr65r5uXXY%2FrXO7Alb0qLMLWdi1zwdBEK%2Fimg.png" width="1000">
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcwA7cP%2Fbtr7ebtaV9x%2FCb0UoQmcGVCBNrKyWs1wH0%2Fimg.png" width="1000">
+# 🛠 기술 스택
 
-<br/>
+**Backend `Java` `SpringBoot` `myBatis` `SpringRestDocs` `Gradle` `JWT`**
 
-- 회원가입 / 로그인
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fba4rZV%2Fbtr7dLVRo9D%2Fgt8aOgJIqI1oI0DDyPc1A0%2Fimg.png" width="1000">
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fcdv1r9%2Fbtr7bigceCm%2FCAWRE8fETKAmJqnEwtNEkK%2Fimg.png" width="1000">
+**Frontend `Npm` `Node` `Javascript` `Vue.js` `BootStrap`**
 
-<br/>
+**Database `MariaDB`**
 
-- 지역 관광지 정보
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F6qd9q%2Fbtr65BgdNCY%2Faj4FYQCgO4fSIhGQYkS5j0%2Fimg.png" width="1000">
+**Version Control `GitLab`**
 
-<br/>
+---
 
-- 공지사항
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fb5JNy6%2Fbtr7cJ5EjLm%2FKTZpubkFkt8o0lCbowVYZ0%2Fimg.png" width="1000">
+## :pushpin: 프로젝트 소개
 
-<br/>
+**서비스 설명**
 
-- 작성자명으로 검색
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcxhALQ%2Fbtr7dUZyfsM%2F4aBpLx8c6dh7H8M6yJ2q8k%2Fimg.png" width="1000">
+### **개요**
 
-<br/>
+한줄 소개 : 함께 여행하기 위한 그룹 커뮤니티 플랫폼
 
-- 페이징
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FeuO6SA%2Fbtr7dMArRGM%2FrJINGREzXHDkzzMXeh4y4k%2Fimg.png" width="1000">
+서비스 명 : **O!GPS(ours group plan's)**
 
-<br/>
+### **타겟 🎯**
 
-- 게시글 작성
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FXawv0%2Fbtr7cZAmz5W%2FfOkOOOkskNiR2Il8OVM630%2Fimg.png" width="1000">
+혼자 계획 짜는 것을 힘들어하는 사람들
 
-<br/>
+같이 여행 할 동료를 찾는 사람들
 
-- 게시글 수정
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FnHd4M%2Fbtr7dUeda0Y%2FHQYX8KYBAeZ7kLI0KmLilK%2Fimg.png" width="1000">
+그룹으로 여행 계획을 세우고 커뮤니티를 즐기고 싶은 사람들
 
-<br/>
+## **기획 배경**
 
-- 작성자명으로 검색
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcxhALQ%2Fbtr7dUZyfsM%2F4aBpLx8c6dh7H8M6yJ2q8k%2Fimg.png" width="1000">
+함께 여행을 가고 싶을 때, 일반적으로 한 사람이 여행 계획을 짜거나 여러 여행지를 올려 고르면서 여행 계획을 짜고 있습니다. 소통하며 순서별 여행 계획을 짜고, 함께 여행 갈 친구가 없을 때에는 같은 목적지를 여행하고 싶은 그룹과 함께 여행을 떠날 수도 있는 플랫폼을 개발 하고자 하였습니다.
 
-<br/>
+# 🖥 기능 소개
+
+| 번호 | 기능                     | 설명                                                                         |
+| :--: | ------------------------ | ---------------------------------------------------------------------------- |
+|  1   | 로그인 및 알림           | JWT를 활용한 로그인 관리 및 그룹 참여 수락/거절 알림 기능                    |
+|  2   | 관광지 페이지            | 전국 관광지 검색, 위치 확인 할 수 있습니다.                                  |
+|  3   | 전체 게시판              | 같이 여행 할 사람 모집, 모든 사람의 여행 그룹을 확인 할 수 있습니다.         |
+|  4   | 내 게시판                | 내가 속한 여행 그룹을 확인 할 수 있습니다.                                   |
+|  5   | 그룹원 및 여행계획 관리  | 그룹 참여 승인 요청, 그룹 탈퇴, 여행 계획 관리, 소통 할 수 있는 공간 입니다. |
+|  6   | 여행 계획 생성           | 관광지를 선택 하고, 목적지와 함께 메모를 작성할 수 있습니다.                 |
+|  7   | 여행 계획 확인           | 계획을 확인, 좋아요, 수정, 삭제 할 수 있습니다.                              |
+|  8   | 여행 후기 및 좋아요 순위 | 조회수, 좋아요 여행 후기를 확인 할 수 있습니다.                              |
+|  9   | 여행 후기 작성           | 다중 이미지 업로드, 여행 후기를 작성 할 수 있습니다.                         |
+|  10  | 여행 후기 확인           | 후기 확인, 좋아요, 댓글, 수정, 삭제 할 수 있습니다.                          |
+|  11  | 날씨                     | OpenWeatherMap API를 활용해 주요 도시의 주간 날씨를 제공합니다.              |
+
+### 로그인 및 알림
+
+![woowacrew introduction 01](./img/login1.png)
+![woowacrew introduction 02](./img/login2.png)
+![woowacrew introduction 02](./img/alarm.png)
+
+### 관광지 검색
+
+![woowacrew introduction 03](./img/attraction.png)
+
+### 그룹 관리
+
+![woowacrew introduction 04](./img/group1.png)
+![woowacrew introduction 05](./img/group2.png)
+
+### 여행 계획 관리
+
+![woowacrew introduction 06](./img/plan1.png)
+![woowacrew introduction 07](./img/plan2.png)
+![woowacrew introduction 08](./img/plan3.png)
+
+### 여행 리뷰
+
+![woowacrew introduction 09](./img/review1.png)
+![woowacrew introduction 10](./img/review2.png)
+![woowacrew introduction 11](./img/review3.png)
+
+### 날씨
+
+![woowacrew introduction 12](./img/weather.png)
