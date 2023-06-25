@@ -18,7 +18,7 @@
 
 **Frontend `Npm` `Node` `Javascript` `Vue.js` `BootStrap`**
 
-**Database `MariaDB`**
+**Database `Mysql`**
 
 **Version Control `GitLab`**
 
